@@ -2,10 +2,10 @@ C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\bin\Debug\STR.exe
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\bin\Debug\STR.exe
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\bin\Debug\STR.pdb
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.csproj.AssemblyReference.cache
-C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.Form1.resources
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.Properties.Resources.resources
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.csproj.GenerateResource.cache
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.csproj.CoreCompileInputs.cache
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.exe
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.pdb
 C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.Menu.resources
+C:\Users\mlope\OneDrive\Documentos\[STR] Camera Monitoring\STR\obj\Debug\STR.FormsPrincipal.resources

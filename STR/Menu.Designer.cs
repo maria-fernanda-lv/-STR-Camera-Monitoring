@@ -113,7 +113,9 @@
             // senha_tb
             // 
             this.senha_tb.Location = new System.Drawing.Point(553, 481);
+            this.senha_tb.MaxLength = 10;
             this.senha_tb.Name = "senha_tb";
+            this.senha_tb.PasswordChar = '*';
             this.senha_tb.Size = new System.Drawing.Size(276, 22);
             this.senha_tb.TabIndex = 6;
             // 

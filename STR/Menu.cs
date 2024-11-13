@@ -21,8 +21,10 @@ namespace STR
         {
             if (senha_tb.Text == "1989" && admin_tb.Text == "admin")
             {
-                Form1 form1 = new Form1();
+                FormsPrincipal form1 = new FormsPrincipal();
                 form1.Show();
+               
+
             }
             else
             {
