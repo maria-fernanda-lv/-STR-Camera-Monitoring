@@ -116,6 +116,8 @@ namespace STR
                     UpdateCameraIndicator(cameraId, statusId);
                     AddAlertToListView(cameraId, location, timestamp, statusId);
                     SystemSounds.Exclamation.Play();
+                    ResetCameraStatus(cameraId); //Função para resetar a câmera devido a possíveis falhas de detecção. Aqui, a câmera volta a ser apenas "Conectada" depois de 10 segundos
+
                 }
                 else if (logEntry.Contains("Câmera conectada"))
                 {
@@ -132,6 +134,22 @@ namespace STR
                 }
             }));
         }
+
+        private void ResetCameraStatus(int cameraId)
+        {
+            new Thread(() =>
+            {
+                Thread.Sleep(30000); // Aguardar 30 segundos
+
+                // Atualiza o status da câmera para "conectada" na thread principal
+                this.Invoke(new Action(() =>
+                {
+                    // Atualiza o indicador da câmera para "Conectado"
+                    UpdateCameraIndicator(cameraId, 5); // statusId = 5 significa "Conectado"
+                }));
+            }).Start();
+        }
+
         //Atualiza a ListView
         private void AddAlertToListView(int cameraId, string location, string timestamp, int statusId)
         {
@@ -199,7 +217,7 @@ namespace STR
                 cameraPanel.BackColor = Color.PaleGreen;
                 cameraPanel.Refresh();
                 cameraLabel.Text = $"Conectada";
-                cameraLabel.BackColor = Color.Red;  
+                cameraLabel.BackColor = Color.PaleGreen;  
                 cameraLabel.Refresh(); 
             }
 
@@ -208,7 +226,7 @@ namespace STR
                 cameraPanel.BackColor = Color.Gold;
                 cameraPanel.Refresh();
                 cameraLabel.Text = $"Erro na Câmera";
-                cameraLabel.BackColor = Color.Red;  
+                cameraLabel.BackColor = Color.Gold;  
                 cameraLabel.Refresh(); 
             }
 

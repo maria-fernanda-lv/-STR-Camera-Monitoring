@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|solutionrelative:formsprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|c:\\users\\mlope\\onedrive\\documentos\\[str] camera monitoring\\str\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,9 +50,9 @@
               "Title": "FormsPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\FormsPrincipal.cs",
               "RelativeDocumentMoniker": "FormsPrincipal.cs",
-              "ToolTip": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\FormsPrincipal.cs",
-              "RelativeToolTip": "FormsPrincipal.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwEQAAABZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\FormsPrincipal.cs*",
+              "RelativeToolTip": "FormsPrincipal.cs*",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAswI0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T04:46:46.516Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T21:11:56.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T21:11:56.803Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "ToolTip": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\FormsPrincipal.cs [Design]",
               "RelativeToolTip": "FormsPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T22:18:11.986Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-10T22:18:11.986Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "FormsPrincipal.Designer.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAApwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T22:18:08.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T22:18:08.677Z"
             },
             {
               "$type": "Document",
