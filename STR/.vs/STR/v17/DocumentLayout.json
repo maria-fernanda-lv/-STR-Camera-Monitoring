@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|solutionrelative:formsprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\formsprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|solutionrelative:formsprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\formsprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|solutionrelative:formsprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB11322E-E74D-4ADA-9993-A5E2FDDB9EBA}|STR.csproj|C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\formsprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,15 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -52,33 +48,39 @@
               "RelativeDocumentMoniker": "FormsPrincipal.cs",
               "ToolTip": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\FormsPrincipal.cs",
               "RelativeToolTip": "FormsPrincipal.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAswIEAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAANMAAAAAAAAAAAAIwPYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T04:46:46.516Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
               "ToolTip": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\Menu.cs",
               "RelativeToolTip": "Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T21:11:56.803Z"
+              "WhenOpened": "2024-11-10T21:11:56.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormsPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\FormsPrincipal.cs",
               "RelativeDocumentMoniker": "FormsPrincipal.cs",
               "ToolTip": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\FormsPrincipal.cs [Design]",
               "RelativeToolTip": "FormsPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T22:18:11.986Z"
+              "WhenOpened": "2024-11-10T22:18:11.986Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -90,7 +92,8 @@
               "RelativeToolTip": "FormsPrincipal.Designer.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAApwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T22:18:08.677Z"
+              "WhenOpened": "2024-11-10T22:18:08.677Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -113,7 +116,8 @@
               "ToolTip": "C:\\Users\\mlope\\OneDrive\\Documentos\\[STR] Camera Monitoring\\STR\\Menu.cs [Design]",
               "RelativeToolTip": "Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T21:10:09.68Z"
+              "WhenOpened": "2024-11-10T21:10:09.68Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

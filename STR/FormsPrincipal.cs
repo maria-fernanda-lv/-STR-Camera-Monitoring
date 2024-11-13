@@ -132,6 +132,13 @@ namespace STR
                     AddAlertToListView(cameraId, location, timestamp, statusId);
                     SystemSounds.Exclamation.Play();
                 }
+                else if (logEntry.Contains("ERROR"))
+                {
+                    statusId = 7; //Erro de conexão
+                    UpdateCameraIndicator(cameraId, statusId);
+                    AddAlertToListView(cameraId, location, timestamp, statusId);
+                    SystemSounds.Exclamation.Play();
+                }
             }));
         }
 
@@ -228,6 +235,12 @@ namespace STR
                 cameraLabel.Text = $"Erro na Câmera";
                 cameraLabel.BackColor = Color.Gold;  
                 cameraLabel.Refresh(); 
+            }
+
+            if (statusId == 7) //Caso de erro de conexão
+            {
+                MessageBox.Show("Verifique conexão com as câmeras. Erro de conexão.", "Erro de conexão", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
 
 
